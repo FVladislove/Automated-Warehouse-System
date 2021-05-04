@@ -1,0 +1,102 @@
+.main-banner {
+  font-family: "Rubik", sans-serif;
+  padding: 0 20px;
+}
+.main-banner .main-banner__inner {
+  padding-top: 110px;
+  padding-bottom: 26px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.main-banner .main-banner__inner .main-banner-image {
+  width: 100%;
+  max-width: 611px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 1024px) {
+  .main-banner .main-banner__inner {
+    flex-wrap: wrap;
+    padding-top: 70px;
+  }
+  .main-banner .main-banner__inner .main-banner-image {
+    margin-bottom: 30px;
+    max-width: 500px;
+  }
+}
+.main-banner .main-banner__inner .main-banner__content {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 1024px) {
+  .main-banner .main-banner__inner .main-banner__content {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main-banner .main-banner__inner .main-banner__content .main__btn {
+    align-self: center;
+  }
+}
+.main-banner .main-banner__inner .main-banner__content .main__btn-link {
+  text-decoration: none;
+  color: white;
+}
+.main-banner .main__title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  max-width: 529px;
+  margin-bottom: 25px;
+  color: #0B132A;
+}
+@media (max-width: 1024px) {
+  .main-banner .main__title {
+    font-size: calc(1rem + 2vw);
+    line-height: 40px;
+  }
+}
+.main-banner .main__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 534px;
+  margin-bottom: 50px;
+  color: #4F5665;
+}
+@media (max-width: 1024px) {
+  .main-banner .main__text {
+    font-size: calc(0.6rem + 1vw);
+  }
+}
+.main-banner .btn {
+  border-radius: 10px;
+  padding: 13px 72px;
+  width: 250px;
+  background-color: #F53838;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.main-banner .btn:hover {
+  background: white;
+  color: red;
+  transition-duration: 0.5s;
+}
+.main-banner .main__btn {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  box-shadow: 0px 20px 50px rgba(245, 56, 56, 0.35);
+}
+@media (max-width: 500px) {
+  .main-banner .main__btn {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main-banner.css.map */
